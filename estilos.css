@@ -1,0 +1,289 @@
+
+/* ==========================================
+   ESTILOS GENERALES
+   ========================================== */
+
+* {
+    box-sizing: border-box;
+}
+
+/* Estilos generales de la página */
+
+body {
+    margin: 0;
+    padding: 0;
+
+    background-color: #eeeeee;
+    color: #222222;
+
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+
+
+/* ==========================================
+   ENCABEZADO
+   ========================================== */
+
+#inicio {
+    background-color: #222222;
+    color: white;
+
+    padding: 25px;
+    margin-bottom: 20px;
+
+    border-bottom: 4px solid #e63946;
+
+    text-align: center;
+}
+
+
+#inicio h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+
+#inicio p {
+    margin: 8px;
+    font-size: 16px;
+}
+
+
+/* Menú de navegación */
+
+nav {
+    margin-top: 20px;
+}
+
+
+nav a {
+    display: inline-block;
+
+    margin: 5px;
+    padding: 8px 15px;
+
+    border: 1px solid #e63946;
+
+    color: white;
+    text-decoration: none;
+
+    font-size: 15px;
+}
+
+
+nav a:hover {
+    background-color: #e63946;
+}
+
+
+/* ==========================================
+   SECCIÓN DE BIENVENIDA
+   ========================================== */
+
+.bienvenida {
+    width: 90%;
+    margin: 20px auto;
+    padding: 30px;
+
+    border: 1px solid #cccccc;
+
+    background-color: white;
+
+    text-align: center;
+}
+
+
+.bienvenida h2 {
+    margin-top: 0;
+    color: #e63946;
+    font-size: 28px;
+}
+
+
+.bienvenida p {
+    font-size: 17px;
+}
+
+
+/* ==========================================
+   PRODUCTOS
+   ========================================== */
+
+#productos {
+    width: 90%;
+    margin: 20px auto;
+    padding: 25px;
+
+    background-color: #ffffff;
+
+    border: 1px solid #cccccc;
+}
+
+
+#productos h2 {
+    margin-top: 0;
+
+    color: #222222;
+    font-size: 28px;
+}
+
+
+.descripcion {
+    margin-bottom: 25px;
+    color: #666666;
+}
+
+
+/* Tarjetas de productos */
+
+.producto {
+    width: 45%;
+
+    display: inline-block;
+    vertical-align: top;
+
+    margin: 10px;
+    padding: 20px;
+
+    border: 2px solid #cccccc;
+
+    background-color: #f9f9f9;
+}
+
+
+.producto h3 {
+    margin-top: 0;
+
+    color: #333333;
+    font-size: 21px;
+}
+
+
+.producto p {
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+
+.precio {
+    color: #e63946;
+
+    font-size: 20px !important;
+    font-weight: bold;
+}
+
+
+/* Botón */
+
+button {
+    padding: 8px 15px;
+
+    border: 1px solid #222222;
+
+    background-color: #222222;
+    color: white;
+
+    font-size: 14px;
+
+    cursor: pointer;
+}
+
+
+button:hover {
+    background-color: #e63946;
+}
+
+
+/* ==========================================
+   SELECTOR DE CLASE
+   ========================================== */
+
+/* Para identificar el producto que queremos diferenciar de los demás. */
+.destacado {
+    background-color: #fff4f4;
+    border: 2px solid #e63946;
+}
+
+
+/* ==========================================
+   SELECTOR nth-child()
+   ========================================== */
+
+/* Para diferenciar el segundo producto con un fondo ligeramente diferente.*/
+.producto:nth-child(3) {
+    background-color: #f1f1f1;
+}
+
+
+/* El cuarto producto tendrá un borde diferente. */
+.producto:nth-child(5) {
+    border-color: #555555;
+}
+
+
+/* ==========================================
+   SECCIÓN NOSOTROS
+   ========================================== */
+
+#nosotros {
+    width: 90%;
+    margin: 20px auto;
+    padding: 25px;
+
+    border: 1px solid #cccccc;
+
+    background-color: #ffffff;
+}
+
+
+#nosotros h2 {
+    color: #e63946;
+    font-size: 26px;
+}
+
+
+/* ==========================================
+   SECCIÓN CONTACTO
+   ========================================== */
+
+#contacto {
+    width: 90%;
+    margin: 20px auto;
+    padding: 25px;
+
+    border: 1px solid #cccccc;
+
+    background-color: #222222;
+    color: white;
+}
+
+
+#contacto h2 {
+    color: #e63946;
+    font-size: 26px;
+}
+
+
+/* ==========================================
+   PIE DE PÁGINA
+   ========================================== */
+
+footer {
+    margin-top: 30px;
+    padding: 20px;
+
+    background-color: #222222;
+    color: white;
+
+    text-align: center;
+
+    border-top: 3px solid #e63946;
+}
+
+
+footer p {
+    margin: 0;
+    font-size: 14px;
+}
+
